@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+
+<h2>Welcome to my blog</h2>
+
+
+{% for item in blog %}
+<ul>
+    <li>{{item.blog_name}} <br>date: no yet</li>
+ 
+</ul>
+{% endfor %}
+
+{% endblock %}
